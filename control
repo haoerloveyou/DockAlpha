@@ -1,0 +1,9 @@
+Package: com.cabralcole.dockalpha
+Name: DockAlpha
+Depends: mobilesubstrate, preferenceloader
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Adjust the Dock Alpha iOS 9.0+
+Maintainer: cabralcole
+Author: cabralcole
+Section: Tweaks

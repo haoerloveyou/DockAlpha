@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+       		<string>PSGroupCell</string>
+        	<key>label</key>
+        	<string>Dock Alpha</string>
+       	 	<key>footerText</key>
+        	<string>Adjust Dock Alpha.</string>
+     	 </dict>    
+      	 <dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.65</real>
+			<key>defaults</key>
+			<string>com.apple.springboard</string>
+			<key>key</key>
+			<string>DockAlpha</string>
+			<key>max</key>
+			<real>1.0</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>showValue</key>
+			<true/>	
+		</dict>
+	  	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+	  	</dict>
+	  	<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>killSpringBoard</string>
+			<key>label</key>
+			<string>Restart SpringBoard</string>
+	  	</dict>
+      	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string> © 2016 Cole Cabral (@ca13ra1)</string>
+		</dict>	
+	</array>
+	<key>title</key>
+	<string>DockAlpha</string>
+</dict>
+</plist>		
